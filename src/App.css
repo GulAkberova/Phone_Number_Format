@@ -1,0 +1,33 @@
+*{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+body{
+  background-color: cornflowerblue;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.phone{
+  width: 400px;
+  max-width: 100%;
+  text-align: center;
+  border: 1px solid white;
+  padding: 10px 20px 20px 20px;
+  border-radius: 10px;
+  color: white;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.phone input{
+  padding: 8px 10px;
+  margin: 15px 0px;
+  border: 1px solid rgb(69, 121, 218);
+  outline: none;
+  color: black;
+  width: 100%;
+  border-radius: 5px;
+}
